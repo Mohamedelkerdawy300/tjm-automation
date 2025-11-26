@@ -1,0 +1,14 @@
+[project]
+name = "tjm-automation"
+version = "0.1.0"
+description = "Vision-based desktop automation using BotCity"
+requires-python = ">=3.10"
+dependencies = [
+    "botcity-framework-core>=0.6.0",
+    "requests>=2.31.0",
+    "opencv-python>=4.8.0",
+    "pygetwindow>=0.0.9"
+]
+
+[tool.uv]
+dev-dependencies = []
